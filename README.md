@@ -1,6 +1,6 @@
 # Java工具类
 
-## 1. add dependency
+## 1. Add Dependency
 ```xml
 <dependency>
     <groupId>com.whiteclaw.common</groupId>
@@ -25,6 +25,10 @@ public class Test{
       Sample sample = new Sample(1, "jackson");
       String result = JacksonUtil.obj2Json(sample);
       System.out.println(result);
+      
+      String json = "{\"id\":1,\"name\":\"jackson\"}";
+      Sample obj = JacksonUtil.json2Obj(json, Sample.class);
+      System.out.println(obj.getId() + "," + obj.getName());
     }
 }
 ```
