@@ -1,6 +1,5 @@
 package com.whiteclaw.common;
 
-import com.sun.xml.internal.messaging.saaj.util.ByteOutputStream;
 
 import java.io.*;
 
@@ -20,10 +19,10 @@ public class ObjectUtil {
      */
 
     public static <T extends Serializable> T deepClone(T obj) throws IOException, ClassNotFoundException {
-        ByteOutputStream bos = new ByteOutputStream();
+        ByteArrayOutputStream bos = new ByteArrayOutputStream();
         ObjectOutputStream oos = new ObjectOutputStream(bos);
         oos.writeObject(obj);
-        ByteArrayInputStream bis = new ByteArrayInputStream(bos.getBytes());
+        ByteArrayInputStream bis = new ByteArrayInputStream(bos.toByteArray());
         ObjectInputStream ois = new ObjectInputStream(bis);
         Object cloneObj;
         try {
