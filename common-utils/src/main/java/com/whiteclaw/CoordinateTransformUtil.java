@@ -1,4 +1,4 @@
-package com.whiteclaw.common;
+package com.whiteclaw;
 
 /**
  * 百度坐标（BD09）、国测局坐标（火星坐标，GCJ02）、和WGS84坐标系之间的转换的工具

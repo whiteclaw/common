@@ -90,4 +90,9 @@ public class ObservableThread<T> extends Thread implements Observable {
     public Cycle getCycle() {
         return this.cycle;
     }
+
+    @Override
+    public void interrupt() {
+        currentThread().interrupt();
+    }
 }
