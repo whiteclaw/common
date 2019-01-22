@@ -14,6 +14,12 @@
     </properties>
 
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/com.github.davidmoten/rtree -->
+        <dependency>
+            <groupId>com.github.davidmoten</groupId>
+            <artifactId>rtree</artifactId>
+            <version>0.8.6</version>
+        </dependency>
         <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>

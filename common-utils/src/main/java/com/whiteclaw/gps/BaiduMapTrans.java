@@ -1,5 +1,7 @@
 package com.whiteclaw.gps;
 
+import com.whiteclaw.gps.polygon.Point;
+
 import java.text.DecimalFormat;
 
 /**
@@ -35,8 +37,8 @@ public class BaiduMapTrans {
     /**
      * 百度转码后的经纬度转化为bd09的经纬度
      *
-     * @param lng 纬度
-     * @param lat 经度
+     * @param lng 经度
+     * @param lat 纬度
      * @return 转化后的经纬度
      */
     public static Point trans(double lng, double lat) {
@@ -67,77 +69,5 @@ public class BaiduMapTrans {
         x *= fromPoint.lng < 0 ? -1 : 1;
         y *= fromPoint.lat < 0 ? -1 : 1;
         return new Point(Double.parseDouble(DECIMAL_FORMAT.format(x)), Double.parseDouble(DECIMAL_FORMAT.format(y)));
-    }
-
-    public static class Point {
-        /**
-         * 纬度
-         */
-        private double lng;
-        /**
-         * 经度
-         */
-        private double lat;
-
-        public Point() {
-        }
-
-        public Point(double lng, double lat) {
-            this.lng = lng;
-            this.lat = lat;
-        }
-
-        public double getLng() {
-            return this.lng;
-        }
-
-        public double getLat() {
-            return this.lat;
-        }
-
-        public void setLng(double lng) {
-            this.lng = lng;
-        }
-
-        public void setLat(double lat) {
-            this.lat = lat;
-        }
-
-        @Override
-        public boolean equals(Object o) {
-            if (o == this) {
-                return true;
-            } else if (!(o instanceof BaiduMapTrans.Point)) {
-                return false;
-            } else {
-                BaiduMapTrans.Point other = (BaiduMapTrans.Point) o;
-                if (!other.canEqual(this)) {
-                    return false;
-                } else if (Double.compare(this.getLng(), other.getLng()) != 0) {
-                    return false;
-                } else {
-                    return Double.compare(this.getLat(), other.getLat()) == 0;
-                }
-            }
-        }
-
-        private boolean canEqual(Object other) {
-            return other instanceof BaiduMapTrans.Point;
-        }
-
-        @Override
-        public int hashCode() {
-            int result = 1;
-            long longitude = Double.doubleToLongBits(this.getLng());
-            result = result * 59 + (int) (longitude >>> 32 ^ longitude);
-            long latitude = Double.doubleToLongBits(this.getLat());
-            result = result * 59 + (int) (latitude >>> 32 ^ latitude);
-            return result;
-        }
-
-        @Override
-        public String toString() {
-            return "BaiduMapTrans.Point(lng=" + this.getLng() + ", lat=" + this.getLat() + ")";
-        }
     }
 }
