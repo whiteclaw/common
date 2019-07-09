@@ -1,4 +1,4 @@
-package com.whiteclaw.gps.polygon;
+package com.whiteclaw.common.gps.polygon;
 
 import java.util.ArrayList;
 import java.util.List;

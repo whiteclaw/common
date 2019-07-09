@@ -1,8 +1,8 @@
-package com.whiteclaw.common;
+package com.whiteclaw.common.nia;
 
 
 import com.fasterxml.jackson.core.type.TypeReference;
-import com.whiteclaw.common.exampledomain.Sample;
+import com.whiteclaw.common.nia.exampledomain.Sample;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

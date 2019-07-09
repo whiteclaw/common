@@ -1,4 +1,4 @@
-package com.whiteclaw.structure;
+package com.whiteclaw.common.structure;
 
 import java.util.LinkedHashMap;
 

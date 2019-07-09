@@ -1,6 +1,6 @@
-package com.whiteclaw.common;
+package com.whiteclaw.common.nia;
 
-import com.whiteclaw.gps.CoordinateTransformUtil;
+import com.whiteclaw.common.gps.CoordinateTransformUtil;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

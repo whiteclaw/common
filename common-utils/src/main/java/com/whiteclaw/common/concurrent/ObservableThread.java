@@ -1,4 +1,4 @@
-package com.whiteclaw.concurrent;
+package com.whiteclaw.common.concurrent;
 
 import java.util.Objects;
 

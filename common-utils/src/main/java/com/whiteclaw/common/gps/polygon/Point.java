@@ -1,4 +1,4 @@
-package com.whiteclaw.gps.polygon;
+package com.whiteclaw.common.gps.polygon;
 
 /**
  * @author whiteclaw

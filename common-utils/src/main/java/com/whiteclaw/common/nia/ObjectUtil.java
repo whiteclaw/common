@@ -1,4 +1,4 @@
-package com.whiteclaw.common;
+package com.whiteclaw.common.nia;
 
 
 import java.io.*;

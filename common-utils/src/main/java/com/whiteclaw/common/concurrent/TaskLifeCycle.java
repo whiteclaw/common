@@ -1,4 +1,4 @@
-package com.whiteclaw.concurrent;
+package com.whiteclaw.common.concurrent;
 
 /**
  * 监控线程不同的生命周期, 并在每个生命周期内做相应的动作

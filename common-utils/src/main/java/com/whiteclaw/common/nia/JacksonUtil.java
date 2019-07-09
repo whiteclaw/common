@@ -1,4 +1,4 @@
-package com.whiteclaw.common;
+package com.whiteclaw.common.nia;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.core.type.TypeReference;

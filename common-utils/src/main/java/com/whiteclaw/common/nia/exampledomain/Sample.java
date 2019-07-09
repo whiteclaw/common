@@ -1,4 +1,4 @@
-package com.whiteclaw.common.exampledomain;
+package com.whiteclaw.common.nia.exampledomain;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

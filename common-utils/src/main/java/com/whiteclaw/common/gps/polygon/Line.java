@@ -1,4 +1,4 @@
-package com.whiteclaw.gps.polygon;
+package com.whiteclaw.common.gps.polygon;
 
 /**
  * Line is defined by starting point and ending point on 2D dimension.<br>

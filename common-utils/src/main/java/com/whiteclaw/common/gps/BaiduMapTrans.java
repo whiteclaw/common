@@ -1,13 +1,13 @@
-package com.whiteclaw.gps;
+package com.whiteclaw.common.gps;
 
-import com.whiteclaw.gps.polygon.Point;
+import com.whiteclaw.common.gps.polygon.Point;
 
 import java.text.DecimalFormat;
 
 /**
  * 将百度地图编码过的坐标转化为标准BD09坐标
  *
- * @author heys
+ * @author whiteclaw
  * created on 2019-01-18
  */
 public class BaiduMapTrans {

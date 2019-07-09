@@ -1,4 +1,4 @@
-package com.whiteclaw.concurrent;
+package com.whiteclaw.common.concurrent;
 
 /**
  * TaskLifeCycle的空实现

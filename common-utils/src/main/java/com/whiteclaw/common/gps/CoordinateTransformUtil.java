@@ -1,11 +1,11 @@
-package com.whiteclaw.gps;
+package com.whiteclaw.common.gps;
 
 /**
  * 百度坐标（BD09）、国测局坐标（火星坐标，GCJ02）、和WGS84坐标系之间的转换的工具
  *
  * 原始地址: https://github.com/geosmart/coordtransform/blob/master/src/main/java/me/demo/util/geo/CoordinateTransformUtil.java
  *
- * @author heys
+ * @author whiteclaw
  * created on 2018/11/23.
  */
 public class CoordinateTransformUtil {

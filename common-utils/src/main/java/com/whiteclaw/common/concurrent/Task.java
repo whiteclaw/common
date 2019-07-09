@@ -1,4 +1,4 @@
-package com.whiteclaw.concurrent;
+package com.whiteclaw.common.concurrent;
 
 /**
  * ObservableThread接收的任务接口
