@@ -3,7 +3,7 @@
 ## 1. Add Dependency
 ```xml
 <dependency>
-    <groupId>com.whiteclaw.common</groupId>
+    <groupId>com.whiteclaw</groupId>
     <artifactId>common-utils</artifactId>
     <version>1.0.0</version>
 </dependency>
