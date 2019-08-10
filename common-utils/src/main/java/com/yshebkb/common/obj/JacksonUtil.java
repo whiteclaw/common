@@ -1,4 +1,4 @@
-package com.yshebkb.common.nia;
+package com.yshebkb.common.obj;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.core.type.TypeReference;

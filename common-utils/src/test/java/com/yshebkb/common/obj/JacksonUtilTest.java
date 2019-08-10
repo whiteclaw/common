@@ -1,8 +1,8 @@
-package com.yshebkb.common.nia;
+package com.yshebkb.common.obj;
 
 
 import com.fasterxml.jackson.core.type.TypeReference;
-import com.yshebkb.common.nia.exampledomain.Sample;
+import com.yshebkb.common.obj.exampledomain.Sample;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

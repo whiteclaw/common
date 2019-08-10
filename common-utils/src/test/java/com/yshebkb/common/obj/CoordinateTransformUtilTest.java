@@ -1,4 +1,4 @@
-package com.yshebkb.common.nia;
+package com.yshebkb.common.obj;
 
 import com.yshebkb.common.gps.CoordinateTransformUtil;
 import org.junit.jupiter.api.Test;
